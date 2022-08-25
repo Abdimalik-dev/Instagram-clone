@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{ 
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+
+.Section1{
+    background-color: #ffff;
+    height: 3em;
+    max-width: 100%;
+    
+}
+
+.Sect1-Header{
+   display: flex;
+   justify-content: center;;
+   padding-top: 8px;
+   gap: 7%;
+}
+
+.name-web{
+    padding-top: 0.3em;
+   
+}
+
+.name-web a {
+    text-decoration: none;
+}
+.header_search_box{
+    display: flex;
+
+}
+
+.header_search_box  , input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    
+    
+}
+
+.header_search_box {
+  
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 1.5em;
+    
+}
+
+.Sect1-navlinks >i , a{
+    padding: 4px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.Sect1-navlinks {
+    margin-top: 0.24em;
+    font-size: 1.2em;
+    
+    
+}
+
+
+
+@media  (max-width:768) {
+     .header_search_box {
+        display: none;
+     }
+
+     .search_box{
+        display: none;
+     }
+     
+    
+}
+
+
+
+
+/* POST SECTION */
+
+
+.CONTENT-BODY{
+  display: flex;
+  justify-content: center;
+}
+.Body-Container{
+    width: 60em;
+    display: flex;
+    justify-content: center;
+   
+}  /* CONTAINERS DIV */
+
+
+
+/*------ ######### ----------- */
+
+
+
+
+
+.Section-2 { /* Section-2*/
+ width: 27em;
+
+
+} 
+
+
+
+.post-layer1{
+    display: flex;
+    justify-content: center;
+    gap: 0.4em;
+    padding-top: 1.6em;
+    margin-top: 1.2em;
+    width: 27em;
+    background-color: #fff;
+    height: 6em;
+    border-radius: 7px;
+    border:1px solid #7c7b7b50 ;
+    
+
+}
+  
+
+#person-story >img{
+     width: 3.3em;
+     height: 3.3em;
+     border:2px solid #e25300d0;
+     border-radius: 3em;
+     padding: 2px;
+     cursor: pointer;
+   
+}
+
+.person-story-name{
+    font-size: 9px;
+    color: #272727d0;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    
+} /* ###### end of story peaople #######*/
+
+
+
+
+
+/* ######### POST SECTION ########### */
+
+
+.Post-layer2{
+    width: 27em;
+    background-color: white;
+}
+
+#post-container{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.Post-freinds{
+   padding-top: 0.9em;
+}
+
+.sub-post >img{
+    width: 2em;
+    height:2em;
+    border-radius: 1.3em;
+    border:1px solid #e25300d0;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.sub-post{
+    display: flex;
+    height: 2.5em;
+    background-color: white;
+    width: 25.9em;
+    align-items: center;
+    padding: 0.5em;
+    border:1px solid #7c7b7b50 ;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.sub-post-name{
+    margin-left: 2px;
+    font-size: 12px;
+    color: #272727d0;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.sub-post-decr{
+    font-size: 10px;
+    color: #5052529f;
+}
+.sub-post-icon{
+    margin-left: 16em;
+    padding: 9px;
+    cursor: pointer;
+    
+}  /* END OF SECTION TOP POST */
+
+
+
+
+/* ####### media post ####### */
+
+.media-post {
+    background-color: white;
+    border:1px solid #7c7b7b50 ;
+    border-radius: 7px;
+    margin-bottom: 0.7em;
+}
+.media-post >img{
+    width: 26.9em;
+    height: 33em;
+   
+    
+}
+
+
+.post-botto-layer1{
+    padding-bottom: 0.2em;
+    font-size: 23px;
+   
+    
+}
+
+.right-post-layer1{
+   padding: 0.5em;
+   cursor: pointer;
+
+}
+
+.center-post-layer1{
+   margin-left: 4em;
+   cursor: pointer;
+}
+
+.left-post-layer1{
+    margin-left: 7.3em;
+}
+
+.post-bottom-layer2{
+    font-size: 12px;
+    margin: 0.8em;
+    margin-bottom: 1.7em;
+    
+}
+
+.post-bottom-layer3{
+    margin: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.post-bottom-layer3-icon{
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+
+.comment-post-btn{
+    margin-left: 9.7em;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #115dff;
+    cursor: pointer;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------#########################-----------------*/
+
+
+
+
+
+
+.Section-3-left { /* SECTION 3 LEFT */
+
+    display: flex;
+    justify-content: center;
+    width: 24em;
+    height: 100%;
+    
+}
+
+
+
+.Sect3-layer1-left{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 2em;
+    
+}
+
+
+
+.sect3-layer1-img >img{
+    width: 4em;
+    height: 4.1em;
+    border-radius: 2em;
+    cursor: pointer;
+    gap: 0.3em;
+  
+}
+
+.sect3-layer1-name-left{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.sect3-layer1-btn{
+    width: 4em;
+    height: 1em;
+    color: #3535fdee;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.sect3-layer1-btn{
+    padding-top: 2.2em;
+    font-size: 13px;
+    margin-left: 3em;
+    font-weight: 600;
+    cursor: pointer;
+
+} /* End of section3 layer 1 ## */
+
+
+
+
+
+/* Section3-layer2*/
+
+.Sect3-layer2-left{
+   display: flex;
+   justify-content: center;
+   gap: 8em;
+   padding-bottom: 0.5em;
+   
+}
+
+
+.sect3-layer2-p1{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.sect3-layer2-p2{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+
+}/* End of section3 layer 2 ## */
+
+
+.Sect3-layer3-people{
+    font-family: "Poppins" , sans-serif;
+    font-weight: 100;
+    
+}
+
+.Sect3-people-list{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.Sect3-people-list >p{
+    margin-left: 0.7em;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.Sect3-people-list >img{
+    width: 2em;
+    height:2em;
+    border-radius: 3em;
+    padding: 2px;
+    image-rendering: optimizeSpeed;
+  
+  
+}
+
+.Sect3-people-list >button{
+    width: 4em;
+    height: 2em;
+    font-size: 11px;
+    margin-left: 8em;
+    background-color:whitesmoke;
+    color: #0051ff;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+  
+}
+
+
+
+/*###########  footer section left side of home page ############*/
+footer{
+   text-align: center;
+   padding-top: 1.5em;
+}
+.footer-section{
+     width: 21em;
+     
+   
+}
+.footer-navlinks{
+    padding-bottom: 0.4em;
+}
+.footer-navlinks >a{
+   
+    font-size: 10.4px;
+    color: #6e6e6ea4;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.footer-navlinks >a:hover{
+    text-decoration: underline;
+}
+
+.Coyrigth-text{
+    font-size: 12px;
+    color: #6e6e6ea4;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{ 
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+
+.Section1{
+    background-color: #ffff;
+    height: 3em;
+    max-width: 100%;
+    
+}
+
+.Sect1-Header{
+   display: flex;
+   justify-content: center;;
+   padding-top: 8px;
+   gap: 7%;
+}
+
+.name-web{
+    padding-top: 0.3em;
+    font-family: "poppins", sans-serif;
+   
+}
+
+.name-web a {
+    text-decoration: none;
+}
+.header_search_box{
+    display: flex;
+
+}
+
+.header_search_box  , input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    
+    
+}
+
+.header_search_box {
+  
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 1.5em;
+    
+}
+
+.Sect1-navlinks >i , a{
+    padding: 4px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+
+.Sect1-navlinks {
+    margin-top:0.24em;
+    font-size: 1.2em;
+    
+    
+}
+
+
+
+
+
+
+/* SECTION 2 */
+.Section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+
+.Sect2-container{
+   background-color:white;
+   width: 31em;
+   height: 100%;
+   margin-bottom: 1.5em;
+   border-radius: 0.4em;
+   
+   
+}
+
+.sect2-head{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+    margin-left: 1em;
+    padding:1em;
+
+    
+}
+.Sect2-Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+
+}
+.Sect2-Icon >img {
+    width: 2.8em;
+    height: 3em;
+    border-radius: 3em;
+
+}
+
+.Sect2-text1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+
+
+
+} 
+.Sect2-text2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #252525;
+    font-size: 11px;
+    margin-left: 1em;
+
+
+} 
+
+.Sect2-btn{
+    background-color: #2222ff;
+    color:#fff;
+    padding: 1px;
+    width: 6.3em;
+    height: 2.1em;
+    font-size: 13px;
+    border: none;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    margin-left: 2em;
+}
+
+
+
+/* ## END SECTION 4 LAYER 3 CONTACTS OR FREIDS  ######*/

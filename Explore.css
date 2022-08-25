@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+
+.Section1{
+    background-color: #ffff;
+    height: 3em;
+    max-width: 100%;
+    
+}
+
+.Sect1-Header{
+   display: flex;
+   justify-content: center;;
+   padding-top: 8px;
+   gap: 7%;
+}
+
+.name-web{
+    padding-top: 0.3em;
+    font-family: "poppins", sans-serif;
+
+   
+}
+
+.name-web a {
+    text-decoration: none;
+}
+.header_search_box{
+    display: flex;
+
+}
+
+.header_search_box  , input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    
+    
+}
+
+.header_search_box {
+  
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 2em;
+    
+}
+
+.Sect1-navlinks >i , a{
+    padding: 4px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+
+.Sect1-navlinks {
+    margin-top: 0.24em;
+    font-size: 1.2em;
+    
+    
+}
+
+
+
+
+/* ##################### ADD MEDAI STYLE ##################*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+
+
+  }/* ############################## END STYLE OF  ADD MEDAI STYLE ##################*/
+ 
+
+
+
+
+
+
+
+
+ /* ############################ SECTION 2 #############################*/
+
+ .sect2-container{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+    gap: 0.6em;
+     
+ }
+.Section-2{
+    max-width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:280px 250px 250px ;
+    grid-template-rows:301px 301px 302px;
+    grid-gap: 1em;
+}
+
+
+.sect2-layer1{
+    background-image: url("images/img43.jpg");
+    grid-column: 1/2;
+    grid-row: 1/3;  
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect2-layer2{
+    background-image: url("images/img14.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.sect2-layer3{
+    background-image: url("images/img26.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect2-layer4{
+    background-image: url("images/img4.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect2-layer5{
+    background-image: url("images/img23.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+/* ################## footer section #################*/
+.Section-5{
+    max-width: 100%;
+    font-size: 1vw;
+}
+
+.Footer-sect5 {
+    text-align: center;
+    padding-bottom: 2em;
+    text-decoration: none;
+ 
+}
+.Footer-sect5 > li , a {
+    font-weight: "Poppins", sansserif;
+    text-decoration: none;
+}
+.sect5-layer1{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sect5-layer2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sect5-layer3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

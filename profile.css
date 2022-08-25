@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{ 
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+
+.Section1{
+    background-color: #ffff;
+    height: 3em;
+    max-width: 100%;
+    
+}
+
+.Sect1-Header{
+   display: flex;
+   justify-content: center;;
+   padding-top: 8px;
+   gap: 7%;
+}
+
+.name-web{
+    padding-top: 0.3em;
+    font-family:"Poppins", sans-serif;
+   
+}
+
+.name-web a {
+    text-decoration: none;
+}
+.header_search_box{
+    display: flex;
+
+}
+
+.header_search_box  , input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    
+    
+}
+
+.header_search_box {
+  
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 1.5em;
+    
+}
+
+.Sect1-navlinks >i , a{
+    padding: 4px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.Sect1-navlinks {
+    margin-top: 0.24em;
+    font-size: 1.2em;
+
+    
+    
+}
+
+
+
+@media  (max-width:768) {
+     .header_search_box {
+        display: none;
+     }
+
+     .search_box{
+        display: none;
+     }
+     
+    
+}
+
+/* Header or section */
+.Section-2{
+   margin-top: 2em;
+}
+
+.Hero-section{
+  display: flex;
+  justify-content: center;
+  gap:4em;
+  max-width: 100%;
+}
+
+.sect2-side1 img{
+    width: 11em;
+    height: 11em;
+}
+
+.sect2-side2{
+    padding-top: 1em;
+    width: 24em;
+    height: 2em;
+   
+}
+.sect2-side2-layer1{
+    gap: 3em;
+    
+}
+
+.sect2-side2-layer1{
+    display: flex;
+    gap: 0.4em;
+    padding-bottom: 1px;
+}
+.sect2-User-name{
+    font-size: 23px;
+    color: #00000077;
+    
+    font-family: unset;
+}
+.sect2-side2-btn1{
+    background-color: #154cff;
+    padding: 0.1em;
+    border: none;
+    color: #ffff;
+    width: 7em;
+    margin-left: 0.5em;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    font-size: 12px;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+
+.sect2-side2-btn2{
+    background-color: #154cff;
+    padding: 0.2em;
+    border: none;
+    color: #ffff;
+    font-size: 12px;
+    width: 2.5em;
+    margin-left: 0.5em;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+#sect2-side2-btn3{
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+
+
+.sect2-side2-layer2 ul{
+     display: flex;
+     gap: 2em;
+     font-family: "Poppins", sans-serif;
+     font-size: 13px;
+     padding-top: 12px;
+     padding-bottom: 12px;
+}
+
+.sect2-side2-layer3{
+    word-spacing: 0.3em;
+    font-size: 12px;
+    color: #353535;
+
+
+} /* end of section 2*/
+
+
+
+
+.sect3-Story-conta{
+   display: flex;
+   justify-content: center;
+   gap: 1em;
+   padding-top: 2em;
+}
+
+.Story-img > img {
+    width: 4em;
+    height: 4em;
+    border-radius: 5em;
+    border: 1px solid #69696950;
+    padding: 2px;
+   
+}
+.Story-img >p  {
+    text-align: center;
+    font-size:12px;
+
+} /* END OF SECTION 3 */
+
+
+.Section-4{
+
+    margin-top: 3em;
+}
+
+hr{
+    width: 65vw;
+    height: 1px;
+    margin-bottom: 1.3em;
+
+}
+
+.sect4-icons {
+   gap: 4em;
+   font-size: 12px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1.5em;
+} 
+
+.Post-Container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+    
+}
+
+.Sect4-container{
+    width: 60em;
+    gap: 1.3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+
+
+.Sect4-post >img{
+    width: 16em;
+    height: 18em;
+    border-radius: 2px;
+    
+}  /* END OF SECTION 4 */
+
+
+
+
+
+/* ################## footer section #################*/
+.Section-5{
+    max-width: 100%;
+    font-size: 1vw;
+}
+
+.Footer-sect5 {
+    text-align: center;
+    padding-bottom: 2em;
+    text-decoration: none;
+ 
+}
+.Footer-sect5 > li , a {
+    font-weight: "Poppins", sansserif;
+    text-decoration: none;
+}
+.sect5-layer1{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sect5-layer2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sect5-layer3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}

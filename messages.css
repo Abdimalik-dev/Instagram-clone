@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{ 
+    background-color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+
+.Section1{
+    background-color: #ffff;
+    height: 3em;
+    max-width: 100%;
+    
+}
+
+.Sect1-Header{
+   display: flex;
+   justify-content: center;;
+   padding-top: 8px;
+   gap: 7%;
+}
+
+.name-web{
+    padding-top: 0.3em;
+    font-family: "poppins", sans-serif;
+
+   
+}
+
+.name-web a {
+    text-decoration: none;
+}
+.header_search_box{
+    display: flex;
+
+}
+
+.header_search_box  , input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+
+    
+    
+}
+
+.header_search_box {
+  
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 0.3em;
+    width: 15em;
+    height: 1.5em;
+}
+
+.Sect1-navlinks >i , a{
+    padding: 4px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+
+.Sect1-navlinks {
+    margin-top: 0.24em;
+    font-size: 1.2em;
+    
+    
+}/* ########## header section 1 ############*/
+
+
+
+
+
+/* ########## SECTION 2 #########*/
+.Section-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.Sub-sect1{
+    display: grid;
+    grid-template-columns: 22em  35em;
+    grid-template-rows: 35em  35em;
+    height: 100vh;
+}
+
+.sect2-Left-side{
+    background-color: white;
+    border:1px solid #7c7b7b50 ;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.sect2-Right-side{
+    background-color: white;
+    border:1px solid #7c7b7b50 ;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+   
+}
+
+/*######## layer 1 ######### */
+
+.sect2-Left-side-layer1{
+    display: flex;
+}
+
+.sect2-Left-side-layer1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.2em;
+    align-items: center;
+    gap: 4em;
+    margin-right: 2em;
+    
+}
+
+.sect2-Leftside-name{
+    cursor: pointer;
+    padding: 0.6em;
+    text-transform: lowercase;
+    text-align: justify;
+    font-size: 16px;
+
+}
+
+.sect2-Leftside-name >i{
+    font-size: 19px;
+    padding: 0.4em;
+    text-align: center;
+    justify-content: center;
+}
+.fa-solid-pen{
+    font-size: 22px;
+    cursor: pointer;
+    justify-content: baseline;
+    margin-top: 3px;
+}
+
+#Users-padge-container{
+   padding: 1em;
+}
+.sect2-Left-side-layer2{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.sect2-leftside-user-label {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    
+}
+.sect2-leftside-user-label >img{
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 4em;
+     
+}
+
+.user-badge{
+    margin-left: 7px;
+    font-weight: 600;
+    color: #2e2e2ef8;
+    font-size: 12px;
+}/*######### end of left side section 2 ########*/
+
+
+
+
+
+/* ########### right side section 2 #########*/
+.sect2-Right-side{
+    display: grid;
+}
+
+.sect2-Right-layer1 {
+    text-align: center;
+    margin: auto;
+}
+.sect2-Right-layer1 >i{
+    font-size: 2.4em;
+    border: 2px solid ;
+    padding: 0.7em;
+    border-radius: 3em;
+    margin: 0.3em;
+}
+
+
+.sect2-Right-layer2{
+    font-size: 14px;
+    padding: 0.4em;
+    
+}
+
+
+.sect-right-btn{
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #4747ff;
+    color: #fff;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
